@@ -1,4 +1,115 @@
 /* Global Styles */
+.i-am {
+    display: inline-block;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 14px;
+}
+.color-text-white {
+  color: white;
+}
+
+/* Changing the size of the icons */
+.siz {
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* I went with making a new class for the icons rather than reusing fab, since it is kinda scary reusing a fontawesome class. */
+
+.section-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #ffffff
+}
+.hero {
+  background: url('../img/bg_0.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.s1 {
+  background: url('../img/bg_1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000000;
+}
+.s2 {
+  background: url('../img/bg_2.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000000;
+}
+.s3 {
+  background: url('../img/bg_3.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.s4 {
+  background: url('../img/bg_4.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.s5 {
+  background: url('../img/bg_5.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.s6 {
+  background: url('../img/bg_6.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.s7 {
+  background: url('../img/bg_9.jpg');
+  /* Swapped this picture with the last one because they fit better that way thematically, At least in my opinion. */
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.s8 {
+  background: url('../img/bg_8.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.s9 {
+  background: url('../img/bg_7.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: blue;
+}
+/* END BODY STYLE SECTION */
+
+/* THIS IS THE FOOTER SECTION */
+.footer-section {
+  background: #031116;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color:#ffffff;
+  /* center the social when extra small & small screens */
+}
+.footer-social {
+  text-align: center;
+}
+
+.footer-social a {
+  color: #c72c72;
+}
+.footer-social a:hover {
+  color: #ffffff;
+  /* color when hovered over: white */
+}
+/* END OF FOOTER SECTION */
+
 
 /* Small Screens */
 @media only screen and (min-width : 768px) {
